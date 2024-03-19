@@ -38,7 +38,7 @@ int main(void)
 	//glfwWindowHint(GLFW_OPENGL_PROFILE, GLFW_OPENGL_CORE_PROFILE); //you might want to do this when testing the game for shipping
 
 
-	GLFWwindow *window = window = glfwCreateWindow(640, 480, "Simple example", NULL, NULL);
+	GLFWwindow *window = window = glfwCreateWindow(640, 480, "Minecraft made by M.Meyland", NULL, NULL);
 	if (!window)
 	{
 		glfwTerminate();
